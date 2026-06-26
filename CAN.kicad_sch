@@ -1554,6 +1554,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MCR03SEQPF1200"
+		(exclude_from_sim no)
+		(at 208.28 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "747fbedc-4830-4adc-833d-3ea39a8a5e43")
+	)
 	(junction
 		(at 185.42 91.44)
 		(diameter 0)
@@ -1977,7 +1987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2308,7 +2318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3117,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP2562FD-H/SN:SOIC8-N_MC_MCH"
+		(property "Footprint" "MCP2652FD_H_SN:SOIC8-N_MC_MCH-L"
 			(at 113.03 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3217,7 +3227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 196.85 107.188 90)
 			(hide yes)
 			(show_name no)

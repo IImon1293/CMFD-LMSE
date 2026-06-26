@@ -13,4 +13,5 @@
 	(lib (name "MU00525_32_768K") (type "KiCad") (uri "${KIPRJMOD}/Parts/MU00525-32.768K/MU00525_32_768K/KiCADv6/2026-06-08_18-47-05.kicad_sym") (options "") (descr "水晶発振器 32.768k"))
 	(lib (name "DF1B-2P-2.5DSA") (type "KiCad") (uri "${KIPRJMOD}/Parts/HIROSE_2P_2.5/KiCADv6/2026-02-28_08-16-57.kicad_sym") (options "") (descr ""))
 	(lib (name "MCP2562-H-SN") (type "KiCad") (uri "${KIPRJMOD}/Parts/MCP2562FD-H-SN/KiCADv6/2026-04-23_08-15-22.kicad_sym") (options "") (descr ""))
+	(lib (name "KTR03EZPF1003") (type "KiCad") (uri "${KIPRJMOD}/Parts/KTR03EZPF1003/KiCADv6/2026-06-25_07-31-25.kicad_sym") (options "") (descr ""))
 )
