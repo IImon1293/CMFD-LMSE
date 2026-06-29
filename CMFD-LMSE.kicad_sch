@@ -10085,16 +10085,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_6" bidirectional
-			(at 139.7 92.71 0)
-			(uuid "1a67caff-2688-4421-832f-e42abb7a9965")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO_5" bidirectional
 			(at 139.7 85.09 0)
 			(uuid "314d4067-8ed7-45d2-a6fe-24cdb04e94dd")
@@ -10233,6 +10223,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO_６" bidirectional
+			(at 139.7 92.71 0)
+			(uuid "a97304c3-398d-41a4-9d9b-c28234b93317")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
