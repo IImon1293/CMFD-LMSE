@@ -15364,14 +15364,6 @@
 		(path "/6807f996-b863-4820-8ba8-f62a033e8ea7/53d32927-c709-4431-9d33-8fb615ff1888")
 		(sheetname "/PowerAndUSB/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "20" "19" "18" "17" "16"
-					"15" "14" "13" "12" "11"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -16177,6 +16169,12 @@
 				(pts
 					(xy 116.928995 108.169995) (xy 118.079005 108.169995) (xy 118.079005 107.380005) (xy 116.928995 107.380005)
 				)
+			)
+		)
+		(group ""
+			(uuid "089764e5-f7a9-4b29-9647-462cb5df236c")
+			(members "0058402f-c48c-44d2-bf61-ce57f9dfae6d" "120edbcd-e95b-4c23-bb31-a7c274ccf5e6"
+				"5e9aba25-2c79-40f5-adc9-1cff49158fd8" "68b3e6a0-8775-49e5-92b8-c15adf9e5829"
 			)
 		)
 		(embedded_fonts no)
@@ -30651,14 +30649,6 @@
 		(layer "F.Cu")
 		(net "VIN")
 		(uuid "d8640671-0436-4f33-bab3-ed65cf85ba35")
-	)
-	(segment
-		(start 117.754 109.454)
-		(end 117.75 109.458)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VIN")
-		(uuid "da374e4c-68d8-4a9f-8e77-ebf494feaf91")
 	)
 	(segment
 		(start 120.2079 111.6444)
