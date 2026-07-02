@@ -1,0 +1,4 @@
+(version 1)
+(rule "Zone_Clearance_Rule"
+    (constraint clearance (min 0.15mm))
+    (condition "A.insideArea('MIniUnit_Zone')"))
