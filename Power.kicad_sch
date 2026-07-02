@@ -8712,7 +8712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KIR03EZPF1003:RES_R0603_ROM-M"
+		(property "Footprint" "KIR03EZPF1003:RES_R0603_ROM-L"
 			(at 146.558 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -10034,7 +10034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 231.14 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10675,7 +10675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 274.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10988,7 +10988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KIR03EZPF1003:RES_R0603_ROM-M"
+		(property "Footprint" "KIR03EZPF1003:RES_R0603_ROM-L"
 			(at 56.388 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -11933,7 +11933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 391.16 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12570,7 +12570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 237.49 52.07 0)
 			(hide yes)
 			(show_name no)

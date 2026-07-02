@@ -1672,6 +1672,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -2016,6 +2155,12 @@
 		(uuid "d4d7468d-1367-47db-8695-465bd0a55666")
 	)
 	(junction
+		(at 208.28 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8260a74-ba6f-490a-aa31-96b5e8a722ea")
+	)
+	(junction
 		(at 218.44 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2322,6 +2467,16 @@
 			(type default)
 		)
 		(uuid "35b158a0-faad-4909-ac2c-0e7a9a690da0")
+	)
+	(wire
+		(pts
+			(xy 208.28 26.67) (xy 208.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a59747f-97a5-4c2b-b2fc-d2d15c4aa6ea")
 	)
 	(wire
 		(pts
@@ -3882,7 +4037,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 124.46 0)
+		(at 190.5 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3892,7 +4047,7 @@
 		(dnp no)
 		(uuid "0314fd82-81c4-467e-aa9a-c1e8f0341b43")
 		(property "Reference" "R20"
-			(at 191.77 123.825 0)
+			(at 189.23 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3903,7 +4058,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 191.77 126.365 0)
+			(at 189.23 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3914,7 +4069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 188.722 124.46 90)
+			(at 192.278 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,6 +4514,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 208.28 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e128b16-9d35-4304-a4eb-354a607fd0bf")
+		(property "Reference" "#PWR022"
+			(at 208.28 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 208.28 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 208.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39b75583-6478-49c7-b3df-46c674cc3909")
+		)
+		(instances
+			(project "CMFD-LMSE"
+				(path "/1c8cd19f-66ef-4296-985a-c19890cd74b7"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 213.36 100.33 0)
 		(unit 1)
@@ -4474,7 +4707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4638,7 +4871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4691,7 +4924,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 124.46 0)
+		(at 172.72 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4701,7 +4934,7 @@
 		(dnp no)
 		(uuid "2a370d01-bf8f-41a5-b98d-52387a2ede8f")
 		(property "Reference" "R17"
-			(at 173.99 123.825 0)
+			(at 171.45 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4712,7 +4945,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 173.99 126.365 0)
+			(at 171.45 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4723,7 +4956,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 170.942 124.46 90)
+			(at 174.498 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,7 +5087,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 124.46 0)
+		(at 167.64 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4864,7 +5097,7 @@
 		(dnp no)
 		(uuid "3232bdc9-7643-429f-82b8-e0cebf2fd8e5")
 		(property "Reference" "R16"
-			(at 168.91 123.825 0)
+			(at 166.37 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4875,7 +5108,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 168.91 126.365 0)
+			(at 166.37 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4886,7 +5119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 165.862 124.46 90)
+			(at 169.418 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +5168,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 124.46 0)
+		(at 161.29 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4945,7 +5178,7 @@
 		(dnp no)
 		(uuid "324f7fd1-f073-4008-ba8e-7adcbd56c679")
 		(property "Reference" "R15"
-			(at 162.56 123.825 0)
+			(at 160.02 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,7 +5189,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 162.56 126.365 0)
+			(at 160.02 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4967,7 +5200,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 159.512 124.46 90)
+			(at 163.068 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5722,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 124.46 0)
+		(at 156.21 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5499,7 +5732,7 @@
 		(dnp no)
 		(uuid "41b55dcb-ac48-48fa-af11-a21a19e55543")
 		(property "Reference" "R14"
-			(at 157.48 123.825 0)
+			(at 154.94 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5510,7 +5743,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 157.48 126.365 0)
+			(at 154.94 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5521,7 +5754,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.432 124.46 90)
+			(at 157.988 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +5995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5847,7 +6080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6147,7 +6380,8 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 167.64 132.08 90)
+		(at 167.64 132.08 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6157,7 +6391,7 @@
 		(dnp no)
 		(uuid "6096654b-e2c8-43b2-a2e6-f8e9aebcd08d")
 		(property "Reference" "D5"
-			(at 168.91 129.54 90)
+			(at 166.37 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6168,7 +6402,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 170.815 130.81 0)
+			(at 164.465 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6260,7 +6494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6393,7 +6627,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 201.93 124.46 0)
+		(at 201.93 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6403,7 +6637,7 @@
 		(dnp no)
 		(uuid "70fea236-9958-42ba-a1a4-b369f88f59f8")
 		(property "Reference" "R22"
-			(at 203.2 123.825 0)
+			(at 200.66 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6414,7 +6648,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 203.2 126.365 0)
+			(at 200.66 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6425,7 +6659,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 200.152 124.46 90)
+			(at 203.708 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6638,7 +6872,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 124.46 0)
+		(at 179.07 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6648,7 +6882,7 @@
 		(dnp no)
 		(uuid "7ad7f2c7-e802-4c97-a81e-2211472e9194")
 		(property "Reference" "R18"
-			(at 180.34 123.825 0)
+			(at 177.8 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6659,7 +6893,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 180.34 126.365 0)
+			(at 177.8 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6670,7 +6904,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 177.292 124.46 90)
+			(at 180.848 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +7228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7940,7 +8174,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 124.46 0)
+		(at 184.15 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7950,7 +8184,7 @@
 		(dnp no)
 		(uuid "a3522736-c456-4892-b518-798718cd16d5")
 		(property "Reference" "R19"
-			(at 185.42 123.825 0)
+			(at 182.88 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7961,7 +8195,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 185.42 126.365 0)
+			(at 182.88 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7972,7 +8206,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.372 124.46 90)
+			(at 185.928 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +8365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 124.46 0)
+		(at 195.58 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8515,7 +8749,7 @@
 		(dnp no)
 		(uuid "c77839ed-560b-4ccb-9c12-43499e696f2a")
 		(property "Reference" "R21"
-			(at 196.85 123.825 0)
+			(at 194.31 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8526,7 +8760,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 196.85 126.365 0)
+			(at 194.31 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8537,7 +8771,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 193.802 124.46 90)
+			(at 197.358 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9252,7 +9486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "DF1B_3P_2_5DSA:CONN3_DF1B-3P_HIR"
 			(at 238.76 95.25 0)
 			(hide yes)
 			(show_name no)

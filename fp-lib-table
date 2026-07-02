@@ -14,4 +14,6 @@
 	(lib (name "DF1B-2P-2.5DSA") (type "KiCad") (uri "${KIPRJMOD}/Parts/HIROSE_2P_2.5/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "MCP2652FD_H_SN") (type "KiCad") (uri "${KIPRJMOD}/Parts/MCP2562FD-H-SN/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "KIR03EZPF1003") (type "KiCad") (uri "${KIPRJMOD}/Parts/KTR03EZPF1003/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "MineFootPrite") (type "KiCad") (uri "${KIPRJMOD}/Parts/MineFootPrite.pretty") (options "") (descr ""))
+	(lib (name "DF1B_3P_2_5DSA") (type "KiCad") (uri "${KIPRJMOD}/Parts/DF1B_3P_2_5DSA/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
