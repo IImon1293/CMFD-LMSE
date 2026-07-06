@@ -1263,13 +1263,13 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "0481cf43-6820-4ee0-ae16-99619826d5b6")
-		(at 89 85.25)
+		(at 116.5 66)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "13e12ef7-1c3e-4537-b61b-6d2b9c8e7d52")
+			(uuid "26364a35-47c5-4bce-967e-103e08e966dd")
 			(effects
 				(font
 					(size 1 1)
@@ -1280,7 +1280,7 @@
 		(property "Value" "UD-1"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "edb7cfb9-815d-4a93-8566-60ec0e133114")
+			(uuid "c93c92f9-a2ae-4772-81b1-bae8011b7975")
 			(effects
 				(font
 					(size 1 1)
@@ -1293,7 +1293,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f00fb9a2-7409-4d21-97b8-f94c92b3118c")
+			(uuid "01f2ea95-40fe-4854-a4c9-7c9236512a85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1306,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc02021a-058a-4764-ac88-1d1d5bafbc91")
+			(uuid "f9fb0fad-e6b8-45cb-90dd-9d92dbc89598")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6422,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "36bce76a-f53f-4e10-a52d-24c3a1cb1931")
-		(at 206.3875 90.35 180)
+		(at 139.1125 94 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C34"
@@ -9792,11 +9792,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4e8843cf-1534-44ee-b2a4-627539201386")
-		(at 206.3875 94.75 180)
+		(at 131.75 99.6125 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C41"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d597c2d6-e0af-46a8-a76d-b02d4ccf0193")
 			(effects
@@ -9807,7 +9807,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "3f9f8a2a-0a07-4591-9317-9beea5fcc61a")
 			(effects
@@ -9818,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cad75dd8-a955-4527-94e4-4c24d591dada")
@@ -9829,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fa83b2f-3c8d-4d34-945a-31221eb54050")
@@ -9840,7 +9840,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2dc2e0c3-bcac-4fb0-9241-5e1b230c8fc0")
@@ -9864,16 +9864,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.146267 0.51)
-			(end 0.146267 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8cefaa46-7108-4020-85cd-c1cddf599baf")
-		)
-		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
 			(stroke
@@ -9882,6 +9872,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2bb7b497-6259-4b8d-aa9d-105a7d745b6b")
+		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8cefaa46-7108-4020-85cd-c1cddf599baf")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -9906,7 +9906,7 @@
 			(uuid "cd8b98f3-bc57-47e1-939a-680500864446")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "086fd7db-4580-4800-b993-95c335130276")
 			(effects
@@ -9917,7 +9917,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0 180)
+			(at -0.8625 0 90)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9926,7 +9926,7 @@
 			(uuid "1fe41eb0-ae5e-4015-9f0f-5b329e99573c")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0 180)
+			(at 0.8625 0 90)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16727,11 +16727,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7e39c456-35b4-484c-9a67-7c6599929a9c")
-		(at 206.3875 91.95 180)
+		(at 133.75 99.6125 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C40"
-			(at 0 -1.43 0)
+			(at -0.1375 1.5 90)
 			(layer "F.SilkS")
 			(uuid "c77226b0-e2cc-43c7-938f-fef21710fdda")
 			(effects
@@ -16742,7 +16742,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "810db163-f328-43d3-acd7-49b7376df2b1")
 			(effects
@@ -16753,7 +16753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb52ba10-eaf1-4aae-a3af-60c8180ac2e6")
@@ -16764,7 +16764,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ab50006-5b64-44a1-ae56-5b5109de782e")
@@ -16775,7 +16775,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "544d5372-e1bb-472b-9916-9873450346ef")
@@ -16799,16 +16799,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.146267 0.51)
-			(end 0.146267 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f8882ea3-19fe-4336-9e0a-50a53eb51218")
-		)
-		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
 			(stroke
@@ -16817,6 +16807,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "6e014898-f5f4-42ab-a3ed-d35bbf51e841")
+		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8882ea3-19fe-4336-9e0a-50a53eb51218")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -16841,7 +16841,7 @@
 			(uuid "9f860346-ccdd-4d88-9886-c658ed899638")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a0ab0597-2c51-4fb9-a378-143d1a00a21d")
 			(effects
@@ -16852,7 +16852,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0 180)
+			(at -0.8625 0 90)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16861,7 +16861,7 @@
 			(uuid "79af0d7c-fb19-4d9e-a069-8278b0753509")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0 180)
+			(at 0.8625 0 90)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -26278,13 +26278,13 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "d37ce0ac-a4aa-4994-8f57-0989d2e822b4")
-		(at 85.65 85.2)
+		(at 109.4 65.95)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "ce59488a-2b39-47fc-b69e-18f49f441e42")
+			(uuid "8c1be2fb-dc6c-4fc0-a1a0-194fa71e8b2a")
 			(effects
 				(font
 					(size 1 1)
@@ -26295,7 +26295,7 @@
 		(property "Value" "UD+1"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "eb22675e-895e-4e43-9c90-0b32fc3954ab")
+			(uuid "83559415-60e1-4860-a5fc-27a50ff3609a")
 			(effects
 				(font
 					(size 1 1)
@@ -26308,7 +26308,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e48a2fc7-0214-41ff-95e8-29bf9358837f")
+			(uuid "d2f10775-ad8b-426a-8634-a2fbaae119ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26321,7 +26321,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68aa37f8-f941-47ee-b961-18a87729d38f")
+			(uuid "986ac9a1-9032-4347-951a-7fbe8c1545ad")
 			(effects
 				(font
 					(size 1.27 1.27)
