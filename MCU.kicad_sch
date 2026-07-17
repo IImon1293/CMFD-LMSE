@@ -3996,6 +3996,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 185.42) (xy 123.19 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fced635-c8cf-404d-a49e-7bead9839507")
+	)
+	(wire
+		(pts
 			(xy 300.99 88.9) (xy 318.77 88.9)
 		)
 		(stroke
@@ -4324,6 +4334,16 @@
 		)
 		(uuid "4930e16b-8b03-431b-b383-07173cf389f8")
 	)
+	(wire
+		(pts
+			(xy 101.6 180.34) (xy 123.19 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495c6d8a-546e-4009-a0d9-76db4b959698")
+	)
 	(bus
 		(pts
 			(xy 184.15 31.75) (xy 184.15 82.55)
@@ -4553,16 +4573,6 @@
 			(type default)
 		)
 		(uuid "6c964fe7-7e9c-4e9e-95a0-5100ead46736")
-	)
-	(wire
-		(pts
-			(xy 101.6 180.34) (xy 130.81 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd605b2-2a57-4853-94c9-855ee759f138")
 	)
 	(bus
 		(pts
@@ -4904,16 +4914,6 @@
 		)
 		(uuid "a72e5711-2f6d-4cda-a784-77fc9a3d6b32")
 	)
-	(bus
-		(pts
-			(xy 39.37 36.83) (xy 67.31 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a77e584d-6ee9-4599-9ffb-26ff602d69a0")
-	)
 	(wire
 		(pts
 			(xy 300.99 76.2) (xy 302.26 76.2)
@@ -4963,16 +4963,6 @@
 			(type default)
 		)
 		(uuid "b1b3f7e6-894b-49c0-b6b6-a6c31a89e78d")
-	)
-	(bus
-		(pts
-			(xy 73.66 36.83) (xy 182.88 36.83)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "b1feef2f-bfa0-4220-9ddb-e1404f67ef82")
 	)
 	(bus
 		(pts
@@ -5043,16 +5033,6 @@
 			(type default)
 		)
 		(uuid "bcc27255-05e3-4bdd-9cb4-a637fb55dc8b")
-	)
-	(wire
-		(pts
-			(xy 101.6 185.42) (xy 130.81 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6456e1-3db2-42c4-bb14-c5e9f03b596a")
 	)
 	(wire
 		(pts
@@ -8392,7 +8372,7 @@
 		)
 		(uuid "b9d2bfae-0289-453d-b016-49480953cf8f")
 	)
-	(hierarchical_label "GPIO_６"
+	(hierarchical_label "GPIO_6"
 		(shape bidirectional)
 		(at 247.65 83.82 180)
 		(effects
@@ -9593,6 +9573,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 127 185.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419a6e02-0fe0-4237-8262-8a1b250460e2")
+		(property "Reference" "R3"
+			(at 127 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 127 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 127 183.642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5c027d2-7958-4b19-863b-0ff8efc05200")
+		)
+		(pin "2"
+			(uuid "8dd3122a-a1de-4345-88a5-cf3f046fd4ca")
+		)
+		(instances
+			(project "CMFD-LMSE"
+				(path "/1c8cd19f-66ef-4296-985a-c19890cd74b7/8cf71bc9-9cb1-43a6-b88c-eed57e377b24"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 270.51 38.1 0)
 		(unit 1)
@@ -10634,6 +10694,86 @@
 			(project "CMFD-LMSE"
 				(path "/1c8cd19f-66ef-4296-985a-c19890cd74b7/8cf71bc9-9cb1-43a6-b88c-eed57e377b24"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83bd10de-bec6-40de-a13b-c2f233fc757c")
+		(property "Reference" "R2"
+			(at 127 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 127 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 127 182.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f86e91bf-048f-40f9-85dd-fc8eb75d1a9b")
+		)
+		(pin "2"
+			(uuid "dd7f1405-7a57-4e1a-8b08-0c59c095276d")
+		)
+		(instances
+			(project "CMFD-LMSE"
+				(path "/1c8cd19f-66ef-4296-985a-c19890cd74b7/8cf71bc9-9cb1-43a6-b88c-eed57e377b24"
+					(reference "R2")
 					(unit 1)
 				)
 			)

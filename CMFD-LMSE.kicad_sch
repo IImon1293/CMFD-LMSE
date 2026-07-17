@@ -10459,9 +10459,9 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_６" bidirectional
+		(pin "GPIO_6" bidirectional
 			(at 139.7 92.71 0)
-			(uuid "a97304c3-398d-41a4-9d9b-c28234b93317")
+			(uuid "ce96249e-1601-47be-ba40-26879f95d7b9")
 			(effects
 				(font
 					(size 1.27 1.27)
