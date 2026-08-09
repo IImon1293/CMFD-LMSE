@@ -1916,6 +1916,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 99.06 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad7a1814-e210-4880-aee2-eda03e9bb9e0")
 		)
@@ -2066,6 +2077,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 234.95 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 234.95 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2238,6 +2260,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 107.95 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2608,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 207.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2631,6 +2664,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 207.01 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 207.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2723,6 +2767,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0700f891-b957-411a-8f5f-389092893555")
 		)
@@ -2795,6 +2850,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 74.93 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2887,6 +2953,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 107.95 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8f1628eb-1455-4c55-9e43-0e05a8519793")
 		)
@@ -2959,6 +3036,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 113.03 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3067,6 +3155,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 196.85 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce955f6e-a685-49f0-b492-16325596b23d")
 		)
@@ -3140,6 +3239,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 215.9 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 215.9 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,6 +3409,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 175.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
