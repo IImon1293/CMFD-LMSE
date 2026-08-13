@@ -60,84 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|135928500|106126300|1c4702cd-f8c8-47eb-9eca-95243c797896|00000000-0000-0000-0000-000000000000",
-          "シェフ「私がやりました」"
-        ],
-        [
-          "shorting_items|116212000|104973000|0058402f-c48c-44d2-bf61-ce57f9dfae6d|37df2d7d-a0ad-4b26-ab9c-1d20d145bddb",
-          "U1 FootPrint"
-        ],
-        [
-          "shorting_items|116212000|106076999|37df2d7d-a0ad-4b26-ab9c-1d20d145bddb|feade8d8-04ac-4c23-b69f-e8e29c43f77d",
-          "U1 FootPrint"
-        ],
-        [
-          "shorting_items|116212000|106927000|37df2d7d-a0ad-4b26-ab9c-1d20d145bddb|46dc92b8-217b-4914-a00a-c1fdd7e6154b",
-          "U1 FootPrint"
-        ],
-        [
-          "shorting_items|118796000|104973000|c177337b-51bb-4424-a117-dc56cc5056d7|e6ed5acb-f745-4370-8164-3357c8f9265a",
-          "U1 FootPrint"
-        ],
-        [
-          "shorting_items|118796000|105822999|606b51aa-9c44-4a16-b94d-55412fecbc27|c177337b-51bb-4424-a117-dc56cc5056d7",
-          "U1 FootPrint"
-        ],
-        [
-          "shorting_items|118796000|106927000|c177337b-51bb-4424-a117-dc56cc5056d7|c492e155-c2cd-43a4-a1a5-fa4cb681cc2b",
-          "U1 FootPrint"
-        ],
-        [
-          "silk_overlap|136073866|103749999|35f281df-542c-4a51-9689-dd39ba87d70b|492ade82-3de5-4c75-b859-a15309b38e9d",
-          "なんか消えないので無視"
-        ],
-        [
-          "solder_mask_bridge|116212000|104973000|37df2d7d-a0ad-4b26-ab9c-1d20d145bddb|0058402f-c48c-44d2-bf61-ce57f9dfae6d",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|116212000|106076999|37df2d7d-a0ad-4b26-ab9c-1d20d145bddb|feade8d8-04ac-4c23-b69f-e8e29c43f77d",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|116212000|106927000|37df2d7d-a0ad-4b26-ab9c-1d20d145bddb|46dc92b8-217b-4914-a00a-c1fdd7e6154b",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|104973000|c177337b-51bb-4424-a117-dc56cc5056d7|e6ed5acb-f745-4370-8164-3357c8f9265a",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|105822999|3004da8d-82b7-49cc-8301-7aa358740ab0|c177337b-51bb-4424-a117-dc56cc5056d7",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|105822999|3004da8d-82b7-49cc-8301-7aa358740ab0|c492e155-c2cd-43a4-a1a5-fa4cb681cc2b",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|105822999|3004da8d-82b7-49cc-8301-7aa358740ab0|e6ed5acb-f745-4370-8164-3357c8f9265a",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|105822999|c177337b-51bb-4424-a117-dc56cc5056d7|606b51aa-9c44-4a16-b94d-55412fecbc27",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|106927000|3004da8d-82b7-49cc-8301-7aa358740ab0|c177337b-51bb-4424-a117-dc56cc5056d7",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|106927000|3004da8d-82b7-49cc-8301-7aa358740ab0|e6ed5acb-f745-4370-8164-3357c8f9265a",
-          "DigiKey_no_Sei"
-        ],
-        [
-          "solder_mask_bridge|118796000|106927000|c177337b-51bb-4424-a117-dc56cc5056d7|c492e155-c2cd-43a4-a1a5-fa4cb681cc2b",
-          "DigiKey_no_Sei"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -754,7 +677,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -762,7 +685,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -813,7 +736,7 @@
         "uuid": "1c8cd19f-66ef-4296-985a-c19890cd74b7"
       }
     ],
-    "used_designators": "R2-3",
+    "used_designators": "R2-3,R27",
     "variants": []
   },
   "sheets": [

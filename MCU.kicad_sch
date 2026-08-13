@@ -8809,7 +8809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "SlideSW:SlideSW"
 			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9880,7 +9880,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" ""
 			(at 41.91 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9973,7 +9973,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" ""
 			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10415,7 +10415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" ""
 			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11095,7 +11095,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" ""
 			(at 109.22 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11590,7 +11590,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" ""
 			(at 121.92 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11683,7 +11683,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" ""
 			(at 173.99 66.04 0)
 			(hide yes)
 			(show_name no)
