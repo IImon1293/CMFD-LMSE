@@ -33316,7 +33316,7 @@
 		(at 128.25 106.25 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(layer "B.Fab")
 			(uuid "df541ba6-329f-4ad3-970c-96187a73216a")
 			(effects
 				(font
@@ -33742,7 +33742,7 @@
 		(at 121.5 85.5 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(layer "B.Fab")
 			(uuid "09fa0802-1dc4-49df-9160-6e475a161e50")
 			(effects
 				(font
