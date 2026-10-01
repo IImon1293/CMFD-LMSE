@@ -330,7 +330,7 @@
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "91b57007-72ee-4abc-9abd-79a35212bc3c")
+			(uuid "b7c483a8-e308-40c8-9cfd-8bf64252ae23")
 			(effects
 				(font
 					(size 1 1)
@@ -342,7 +342,7 @@
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "11da270f-c5ee-4c01-86cb-a394f73c0cbd")
+			(uuid "e19fbe96-5138-4ea7-83ad-4a69c4999d3b")
 			(effects
 				(font
 					(size 1 1)
@@ -354,7 +354,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5d85248-12fa-4984-a046-d98b7c2538d2")
+			(uuid "0f47fc62-6318-4ed9-8e36-a1eec6646e08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +365,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bea067b-8dcb-4e19-84e1-60e9b051b638")
+			(uuid "a142385e-a98c-435b-b7ae-f240c033b054")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27602,7 +27602,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29174,7 +29174,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
